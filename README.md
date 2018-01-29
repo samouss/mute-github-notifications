@@ -1,56 +1,9 @@
+## Github mute notifications
 
-# React Webpack starter
+Extension that mute the GitHub notifications icon 🔇
 
-[![dependencies Status](https://david-dm.org/samouss/react-webpack-starter/status.svg)](https://david-dm.org/samouss/react-webpack-starter) [![devDependencies Status](https://david-dm.org/samouss/react-webpack-starter/dev-status.svg)](https://david-dm.org/samouss/react-webpack-starter?type=dev)
+### Why?
 
-React starter build with Webpack 3, Babel, CSS Modules, ESLint, Jest, Enzyme.
+When you are using a tool like [Octobox](https://octobox.io) for managing your GitHub notifications, you still need to enable the ["Web" notifications](https://github.com/settings/notifications). So every time you navigate on GitHub you will see this little bubble that inform you that you have new notifications.
 
-## Clone
-
-Run this command for launch a new project from the starter.
-
-```
-// Run this command first for clone the repository
-git clone git@github.com:samouss/react-webpack-starter.git [PROJECT_NAME]
-
-// Then execute this one for remove .git information and start a new project
-rm -rf [PROJECT_NAME]/.git
-```
-
-## Installation
-
-Clone the repository and then run the following command:
-
-```
-npm install
-```
-
-## Run the application
-
-For build the dev application and launch a server in watch mode on `localhost:8080`:
-
-```
-npm start
-```
-
-## Bundle the application
-
-For build your application for production:
-
-```
-npm run build
-```
-
-## Run the test for your application
-
-Your tests will be executed in single run mode:
-
-```
-npm test
-```
-
-For run in watch mode:
-
-```
-npm test:watch
-```
+I don't want to be distract by this little bubble 🙈
