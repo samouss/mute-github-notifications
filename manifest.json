@@ -1,25 +1,13 @@
 {
   "manifest_version": 2,
-  "name": "DevTools experiments",
-  "description": "DevTools experiments on Chrome",
+  "name": "Mute Github notifications",
+  "description": "Extension for hide Github notifications",
   "version": "1.0",
-  "devtools_page": "devtools.html",
-  "background": {
-    "scripts": ["background.js"],
-    "persistent": false
-  },
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
-      "js": ["loader.js"],
+      "matches": ["*://github.com/*"],
+      "js": ["contentScript.js"],
       "run_at": "document_start"
     }
-  ],
-  "permissions": [
-    "*://*/*",
-    "<all_urls>"
-  ],
-  "web_accessible_resources": [
-    "hook.js"
   ]
 }
