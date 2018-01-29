@@ -1,0 +1,7 @@
+{
+  "name": "mute-github-notifications",
+  "version": "1.0.0",
+  "description": "Extension for hide Github notifications",
+  "author": "Vaillant Samuel <samuel.vllnt@gmail.com>",
+  "license": "MIT"
+}
