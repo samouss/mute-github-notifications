@@ -1,4 +1,4 @@
-## Github mute notifications
+## GitHub mute notifications
 
 Extension that mute the GitHub notifications icon 🔇
 
